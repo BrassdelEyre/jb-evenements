@@ -1,0 +1,845 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👋 Bienvenue &#8212; Brass&#39; de l&#39;Eyre</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom_style.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/slideshow.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/Cube-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/kittons-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/slideshow-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style-dialogue-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_business_canvas-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "https://github.com/Deugz/jb-brasserie");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <link rel="canonical" href="https://deugz.github.io/jb-brasserie/_build/html/intro.html" />
+    <link rel="shortcut icon" href="_static/logo-Vince.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="A inclure" href="to-include.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">⚠ Site En Development ⚠</div>
+  </div>
+
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo-Vince.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo-Vince.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="to-include.html">A inclure</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">A venir</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="A-Venir/Fete-Brasserie/Fete-Brasserie.html">✅ 29/06/24  Fête de la Brasserie</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Archives</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="Archives/2024/2024_Main.html">2024</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Archives/2024/Travaux_Brass.html">Travaux</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">📦 Annexes</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Annex/References/bibliography.html">Bibliography</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Deugz/jb-brasserie" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Deugz/jb-brasserie/edit/main/_build/html/intro.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Deugz/jb-brasserie/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>👋 Bienvenue</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bieres">Les Bières!</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <a class="reference internal image-reference" href="_images/brass-de-leyre.svg"><img alt="_images/brass-de-leyre.svg" src="_images/brass-de-leyre.svg" width="100%" /></a>
+<hr class="docutils" />
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<br>
+<p class="emphase"> <strong> <em>"Des bières brassées par les copain(e)s, <br> pour les copain(e)s!"</em> </strong></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<p><dotlottie-player src="https://lottie.host/501c9f42-e287-44df-97ad-e83154e5680a/16JQNlVEsR.json" background="transparent" speed="1" style="width: 80%; height: auto; margin: auto;" loop autoplay></dotlottie-player></p>
+</div>
+</div>
+</div>
+<div class="warning dropdown admonition">
+<p class="first admonition-title">A consommer avec modération! </p>
+<div class="sd-tab-set last docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Alcoolodépendance</label><div class="sd-tab-content docutils">
+<p>Dans le langage courant, la consommation excessive, répétée et incontrôlable de boissons alcoolisées est le plus souvent nommée « alcoolisme ». Cependant, le manque de précision de ce terme a amené l’Organisation mondiale de la santé (OMS) à proposer un terme plus précis, « alcoolodépendance », qui met en avant le caractère addictif de l’alcool et le parallèle qui existe avec les autres troubles de l’addiction (dépendance aux dérivés de l’opium, aux jeux d’argent, au sexe, etc.). L’alcoolodépendance est une addiction à l’alcool sous forme de boissons plus ou moins « fortes ».
+La consommation répétée de boissons alcoolisées peut prendre différentes formes selon le rythme de consommation et la quantité d’alcool ingérée. On distingue divers degrés de sévérité qui vont de l’abstinence (aucune prise d’alcool) à la dépendance avérée, selon un continuum d’intensité.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.vidal.fr/maladies/psychisme/alcool-dependance.html" rel="noopener noreferrer" target="_blank">Source</a></li>
+</ul>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Idées reçus!</label><div class="sd-tab-content docutils">
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Dans cette section j’aimerai bien déconstruire quelques idées reçus sur l’alcool. On pourra implémenter cette section au fur et a mesure de nos rencontres et discussions avec les futurs brasseurs.</p>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+La bière, c’est 90% d’eau, ça hydrate!<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="emphase"><strong>NON !</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Déshydratation (sans alcool)</strong> :</p>
+</li>
+</ul>
+<div class="figure align-default" id="alcool-eau">
+<a class="reference internal image-reference" href="_images/Alcool-eau.png"><img alt="_images/Alcool-eau.png" src="_images/Alcool-eau.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Source: CBSB newsletter (14/06/2024)</span><a class="headerlink" href="#alcool-eau" title="Permalink to this image">#</a></p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Déshydratation (avec alcool)</strong> :</p>
+</li>
+</ul>
+<div class="figure align-center" id="alcool-eau-2">
+<a class="reference internal image-reference" href="_images/Alcool-eau-2.png"><img alt="_images/Alcool-eau-2.png" src="_images/Alcool-eau-2.png" style="width: 82%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Source: CBSB newsletter (14/06/2024)</span><a class="headerlink" href="#alcool-eau-2" title="Permalink to this image">#</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</details><br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Une bière aprés le sport, c’est bon pour la récupération!<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="emphase"><strong>J'en sais rien perso</strong></p>
+</div>
+</details></div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Documentation</label><div class="sd-tab-content docutils">
+<p><strong>Un peu de lecture?</strong></p>
+<ul class="simple">
+<li><a class="reference download internal" download="" href="_downloads/739816dddcd7435556f7167f5ad16b31/armer-la-sobriete-cahier.pdf"><span class="xref download myst">Armer la sobriété</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/f3714a1b40abb76bec434a9b7e0afa6d/vers-un-monde-moins-defonce-et-merdique-cahier.pdf"><span class="xref download myst">Vers un monde moins defonce et merdique</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/5f49df1acc22f50b9bc91304784155f2/ALCOOL-actifs.pdf"><span class="xref download myst">Infographie sur l’alcool</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/a49f85d19cd599a2f60c69774bc1551c/Flyer-Alcool.pdf"><span class="xref download myst">Flyer alcool (conseils pour réduire les risques)</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/b99ea0aa561c322c179773e327224634/sansretenue-alcoolviol-cahier.pdf"><span class="xref download myst">Alcool et culture du viol</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/9e3cdc5b083f148be2c65b3039bf90ab/MonEdgeEstToutSaufStraight-cahier.pdf"><span class="xref download myst">Mon edge est tout sauf straight</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/ca5f21267395a4996ce05ae5f286c782/cahierdevacances_tabac-16pa4-mars2024-cahier.pdf"><span class="xref download myst">Cahier de vacances pour arrêter de fumer</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/d0a3c199ffdbd3ba5365415ca1877ed0/tumer_fue-40pa4-cahier-2022.pdf"><span class="xref download myst">TUMER FUE Une méthode libre pour en finir avec la clope</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/35e70530309b2c506431427e3ceadbcc/drogues_et_dependances-cahier.pdf"><span class="xref download myst">Trucs pour un peu plus d’autonomie face aux drogues</span></a></li>
+</ul>
+<p><strong>Besoin d’affiches pour ton évènement?</strong></p>
+<ul class="simple">
+<li><a class="reference download internal" download="" href="_downloads/7acb2d8042851bdf1b45169bf305e975/AFFICHES-DU-KIF-CC.pdf"><span class="xref download myst">Affiches du KIF</span></a> (Licence CC)</li>
+<li><a class="reference download internal" download="" href="_downloads/f02ebefe5c7c6bb66e311d6cd8772b1d/Affiches-licornes_avenirsante_prevaddicto.pdf"><span class="xref download myst">Affiches licornes avenir santé</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/de622b14bac7bb3482c1e89b243949c5/Fetez-clair.pdf"><span class="xref download myst">Affiche Fêtez clairs</span></a></li>
+<li><a class="reference download internal" download="" href="_downloads/d9f855c21b6e334dbb72d5c9e7cc7f32/Fetez-clair-2.pdf"><span class="xref download myst">Affiche Fêtez clairs 2</span></a></li>
+</ul>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Testez vous!</label><div class="sd-tab-content docutils">
+<p>Insérer ici des outils de prévention</p>
+<ul class="simple">
+<li><a class="reference external" href="https://simulateur.addictions-france.org/" rel="noopener noreferrer" target="_blank">Outil Diagnostique</a></li>
+</ul>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Conseils?</label><div class="sd-tab-content docutils">
+<div class="admonition-notre-role admonition">
+<p class="first admonition-title">Notre rôle ?</p>
+<p class="last">Espace de discussion collectif</p>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="tex2jax_ignore mathjax_ignore section" id="bienvenue">
+<h1>👋 <strong>Bienvenue</strong><a class="headerlink" href="#bienvenue" title="Permalink to this heading">#</a></h1>
+<p class="emphase"> Sur le site internet (à usage interne) de la brasserie </p>
+<br>
+<div class="note dropdown admonition">
+<p class="first admonition-title">Quelques infos en vrac sur le site </p>
+<div class="sd-tab-set last docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+C’est quoi ?</label><div class="sd-tab-content docutils">
+J’imagine ce site devenir un <strong>espace collaboratif</strong> dédié a la centralisation des données et donc des infos relatives a la brasserie. L’arborescence du site, que vous retrouverez dans le menue de gauche a été pensé pour rendre plus accessible les documents hébergés sur le drive (notre outil commun), et ainsi fluidifier les interactions entre les membres de l’association. Cette base de connaissance est produite et hébergé gratuitement et n’est pas référencé sur google. Elle a pour l’instant vocation a être un outil interne, mais peut également être partagé a l’exterieur si besoin.</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+C’est pour qui?</label><div class="sd-tab-content docutils">
+Pour nous, et potentiellement les autres personnes qui pourraient êtres amenés a brasser.</div>
+<input id="sd-tab-item-7" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-7">
+Comment je peux participer ?</label><div class="sd-tab-content docutils">
+Tu peux annoter …</div>
+</div>
+</div>
+<br>
+<div class="section" id="les-bieres">
+<h2>Les Bières!<a class="headerlink" href="#les-bieres" title="Permalink to this heading">#</a></h2>
+<p class="emphase2"><strong> <em> Du Moment </em></strong></p>
+<br>
+<a class="reference internal image-reference" href="Bieres/Liste/SolEyre/Docs/SolEyre.png"><img alt="Bieres/Liste/SolEyre/Docs/SolEyre.png" class="align-center" src="Bieres/Liste/SolEyre/Docs/SolEyre.png" style="width: 100%;" /></a>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<p class="emphase"> <em><strong> Tu l'as gouté? </strong></em> <br> ↓ <br> Remplis la <a href="Bieres/Liste/SolEyre/SolEyre.html">Fiche de dégust'</a> 😉</p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text">La  <strong>Sol’Eyre</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first">🛠️ 20/04/2024</p>
+</li>
+<li><p class="sd-card-text first">🍾 04/05/2024</p>
+</li>
+<li><p class="sd-card-text first">🍺 25/05/2024</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="Bieres/Liste/SolEyre/SolEyre.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p class="emphase2"><strong> <em> A Venir </em></strong></p>
+<p class="emphase"><strong> <em> La cuvée des écolos vient brasser! </em></strong></p>
+<div class="hint dropdown admonition">
+<p class="first admonition-title">Plus d’infos sur nos potes de la cuvée  </p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 last docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<em>“La Cuvée des Écolos est une association de solidarité alimentaire. Basés sur la commune de Pessac, nous sommes actifs auprès du public étudiant et traitons de différents enjeux contemporains liés à l’alimentation et à l’agriculture. Notre mission est de faciliter l’accès du plus grand nombre à une alimentation saine, tout en promouvant et en soutenant activement l’agriculture paysanne et l’agro- écologie.”</em></div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>La Cuvée des écolos</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="_images/La-Cuvee-des-ecolos.png"><img alt="_images/La-Cuvee-des-ecolos.png" src="_images/La-Cuvee-des-ecolos.png" style="width: 100%;" /></a>
+<br>
+</div>
+<a class="sd-stretched-link reference external" href="https://la-cuvee.odoo.com/" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>Insérer l’étiquette quand elle sera faite!</p>
+<ul class="last simple">
+<li>Paulo, est-ce que tu peux m’envoyer un lien vers le fichier canvas stp?</li>
+</ul>
+</div>
+<a class="reference internal image-reference" href="_images/CuvEyre_étiquette.png"><img alt="_images/CuvEyre_%C3%A9tiquette.png" class="align-center" src="_images/CuvEyre_%C3%A9tiquette.png" style="width: 100%;" /></a>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<p class="emphase"> <em> <strong>Tu veux la gouter? </strong></em> <br> ↓ <br> Rejoins les à <a href="Bieres/Liste/SolEyre/SolEyre.html">Cet Evenement</a> 😉</p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>PremiEyre V4</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first">🛠️ 11/05/2024</p>
+</li>
+<li><p class="sd-card-text first">🍾 04/05/2024</p>
+</li>
+<li><p class="sd-card-text first">🍺 25/05/2024</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://la-cuvee.odoo.com/" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+</div>
+</div>
+<h2> La Brasserie </h2>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<div class="admonition-paragraphe-d-introduction admonition">
+<p class="first admonition-title">Paragraphe d’introduction</p>
+<p class="last">Là c’est le momment de se creuser la soupière pour définir le coeur du projet. Je pense que les personnes génitrices du projet devraient écrire cette section.</p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<div class="figure align-default" id="cat-head-1">
+<a class="reference internal image-reference" href="_images/cat-head-1.jpg"><img alt="_images/cat-head-1.jpg" src="_images/cat-head-1.jpg" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Caption</span><a class="headerlink" href="#cat-head-1" title="Permalink to this image">#</a></p>
+</div>
+</div>
+</div>
+</div>
+<p class="emphase"><strong> Un lieu de partage et de création collectif</strong></p>
+<section id="slideshow">
+<div class="entire-content">
+<div class="content-carrousel">
+<figure class="shadow"><a href="_static/Images/DSC_0792.jpg" target="_blank"><img src="_static/Images/DSC_0792.jpg" alt="jardin" width="100%" /></a></figure>
+<figure class="shadow"><a href="_static/Images/DSC_0728.jpg" target="_blank"><img src="_static/Images/DSC_0728.jpg" alt="jardin" width="100%" /></a></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/131046/pexels-photo-131046.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/302515/pexels-photo-302515.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/301682/pexels-photo-301682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+<figure class="shadow"><img src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
+</div>
+</div>
+</section>
+<h2> L'Association!</h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Description de l’association (une fois statuts établis)</p>
+</div>
+<h1> Commentaires</h1>
+<br>
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/jb-brasserie"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="right-next"
+       href="to-include.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">A inclure</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bieres">Les Bières!</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <strong>Vincent Deguin</strong> (with ❤️)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  
+
+
+<br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

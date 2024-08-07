@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts: 
+  - caption: ""
+    chapters: 
+    - file: to-include
+  - caption: A venir
+    chapters:
+    - file: A-Venir/Fete-Brasserie/Fete-Brasserie
+  - caption: Archives
+    chapters:    
+    - file: Archives/2024/2024_Main
+      sections:
+      - file: Archives/2024/Travaux_Brass
+  - caption: 📦 Annexes
+    chapters:
+    - file: Annex/References/bibliography
+
+
+    
+
+
